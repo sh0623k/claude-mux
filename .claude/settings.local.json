@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__ide__getDiagnostics",
+      "Bash(go build:*)",
+      "Bash(./bin/orchestrator:*)",
+      "Bash(claude doctor)",
+      "Bash(tmux list-windows:*)",
+      "mcp__o3__o3-search",
+      "Bash(go test:*)",
+      "Bash(tmux new-session:*)",
+      "Bash(tmux split-window:*)",
+      "Bash(tmux list-panes:*)",
+      "Bash(tmux kill-session:*)",
+      "Bash(tmux select-pane:*)",
+      "Bash(tmux select-layout:*)",
+      "Bash(tmux capture-pane:*)",
+      "Bash(ls:*)",
+      "Bash(go help:*)"
+    ],
+    "deny": []
+  }
+}
